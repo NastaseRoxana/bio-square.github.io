@@ -1997,11 +1997,11 @@ Main components
 
 .cd-timeline-img {
   position: absolute;
-  top: 5%;
-  left: 0;
-  width: 40px;
+  top: 14%;
+  left: 92%;
+  width: 4%;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 0%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
@@ -2094,7 +2094,6 @@ Main components
 }
 .cd-timeline-content {
   position: center;
-  margin-left: 60px;
   background: white;
   border-radius: 0.25em;
   padding: 1em;
@@ -2173,7 +2172,7 @@ Main components
   .cd-timeline-content .cd-date {
     position: absolute;
     width: 100%;
-    left: 122%;
+    left: 90%;
     top: 6px;
     font-size: 16px;
     font-size: 1rem;
