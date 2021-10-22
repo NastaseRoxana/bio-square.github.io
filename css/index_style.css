@@ -1997,7 +1997,7 @@ Main components
 
 .cd-timeline-img {
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 0;
   width: 40px;
   height: 40px;
@@ -2093,7 +2093,7 @@ Main components
   }
 }
 .cd-timeline-content {
-  position: relative;
+  position: center;
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
@@ -2159,7 +2159,7 @@ Main components
   .cd-timeline-content {
     margin-left: 0;
     padding: 1.6em;
-    width: 45%;
+    width: 100%;
   }
   .cd-timeline-content::before {
     top: 24px;
@@ -2345,4 +2345,67 @@ hr:after {
   padding: 0 4px;
   position: relative;
   top: -13px;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(5, 4, 65);
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  left: 0!important;
+  right: 0 !important;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  float: left !important;
+  width: auto !important;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

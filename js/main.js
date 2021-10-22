@@ -355,3 +355,95 @@ jQuery(document).ready(function($) {
   siteIstotope();
 
 });
+
+function fiki() {
+	var fiki = document.getElementById("Fiki");
+	if (fiki.style.display == "none") {
+		fiki.style.display = "block";
+	} else {
+		fiki.style.display = "none";
+	}	
+}
+
+function prezentare() {
+	var prezentare = document.getElementById("Prezentare");
+	if (prezentare.style.display == "none") {
+		prezentare.style.display = "block";
+	} else {
+		prezentare.style.display = "none";
+	}	
+}
+
+function vanzare() {
+	var vanzare = document.getElementById("Vanzare");
+	if (vanzare.style.display == "none") {
+		vanzare.style.display = "block";
+	} else {
+		vanzare.style.display = "none";
+	}	
+}
+
+function mvp() {
+	var mvp = document.getElementById("Mvp");
+	if (mvp.style.display == "none") {
+		mvp.style.display = "block";
+	} else {
+		mvp.style.display = "none";
+	}	
+}
+
+
+function piata() {
+	var piata = document.getElementById("Piata");
+	if (piata.style.display == "none") {
+		piata.style.display = "block";
+	} else {
+		piata.style.display = "none";
+	}	
+}
+
+function validare2() {
+	var validare2 = document.getElementById("Validare2");
+	if (validare2.style.display == "none") {
+		validare2.style.display = "block";
+	} else {
+		validare2.style.display = "none";
+	}	
+}
+
+function ux() {
+	var ux = document.getElementById("Ux");
+	if (ux.style.display == "none") {
+		ux.style.display = "block";
+	} else {
+		ux.style.display = "none";
+	}	
+}
+
+function pgProdus() {
+	var pgProdus = document.getElementById("PgProdus");
+	if (pgProdus.style.display == "none") {
+		pgProdus.style.display = "block";
+	} else {
+		pgProdus.style.display = "none";
+	}	
+}
+
+function validare1() {
+	var validare1 = document.getElementById("Validare1");
+	if (validare1.style.display == "none") {
+		validare1.style.display = "block";
+	} else {
+		validare1.style.display = "none";
+	}	
+}
+
+function descriere() {
+	var descriere = document.getElementById("Descriere");
+	if (descriere.style.display == "none") {
+		descriere.style.display = "block";
+	} else {
+		descriere.style.display = "none";
+	}	
+}
+
