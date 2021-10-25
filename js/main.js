@@ -90,6 +90,7 @@ jQuery(document).ready(function($) {
 	    }
 		});
 	}; 
+	$(".flexnav").flexNav();
 	siteMenuClone();
 
 
@@ -446,4 +447,3 @@ function descriere() {
 		descriere.style.display = "none";
 	}	
 }
-

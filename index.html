@@ -47,29 +47,28 @@
 		</div>
 
       	<header class="site-navbar site-navbar-target" role="banner">
-			<div class="navbar">	
-				<div class="dropdown">
-				    <a href="TBA">Contact</a>
-					<a href="#SupaTeam" >Echipa</a>
-					
-					<button class="dropbtn">
-						<span class="icon-menu  text-white"></span>
-					</button>
-
-					<div class="dropdown-content">
-						<a href="#">Acasa</a>
-						<a href="#Descriere-">M1 Descriere Proiect</a>
-						<a href="#Validare1-">M2</a>
-						<a href="#PgProdus-">M3</a>
-						<a href="#Ux-">M4</a>
-						<a href="#Validare2-">M5</a>
-						<a href="#Piata-">M6</a>
-						<a href="#Mvp-">M7</a>
-						<a href="#Vanzare-">M8</a>
-						<a href="#Prezentare-">M9</a>
-						<a href="#Fiki-">M11</a>
-					</div>
-				</div>
+			<div class="navbar-container">
+				<div class="menu-button">Menu</div>
+				<ul class="flexnav" data-breakpoint="800">
+					<li><a href="#">Acasa</a></li>
+					<li>
+						<a href="#" class="disabled">Milestones</a>
+						<ul>
+							<li><a href="#Descriere-">M1 Descriere Proiect</a></li>
+							<li><a href="#Validare1-">M2</a></li>
+							<li><a href="#PgProdus-">M3</a></li>
+							<li><a href="#Ux-">M4</a></li>
+							<li><a href="#Validare2-">M5</a></li>
+							<li><a href="#Piata-">M6</a></li>
+							<li><a href="#Mvp-">M7</a></li>
+							<li><a href="#Vanzare-">M8</a></li>
+							<li><a href="#Prezentare-">M9</a></li>
+							<li><a href="#Fiki-">M11</a></li>
+						</ul>
+					</li>
+					<li><a href="#SupaTeam">Echipa</a></li>
+					<li><a href="#Contact">Contact</a></li>
+				</ul>
 			</div>
       	</header>
 
@@ -591,7 +590,7 @@
 		</div>
 
 		<div class="row text-center" style="background-image: url('images/background3.jpg')">
-			<div class="col-md-12"> 
+			<div id="Contact" class="col-md-12"> 
 				<div class="d-flex align-items-center justify-content-center" style="padding-top: 30px;">
 					<i class="fa fa-envelope" style="padding-right: 5px; color:white;"></i>
 					<dt class="text-white">mail firma TBA</dt>
@@ -615,6 +614,7 @@
 		<script src="js/popper.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.flexnav.js"></script>
 		<script src="js/jquery.sticky.js"></script>
 		<script src="js/jquery.waypoints.min.js"></script>
 		<script src="js/jquery.animateNumber.min.js"></script>
@@ -625,6 +625,5 @@
 		<script src="js/isotope.pkgd.min.js"></script>
 		<script src="js/aos.js"></script>
 		<script src="js/main.js"></script>
-
 	</body>
 </html>
